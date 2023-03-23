@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+}
+.container {
+    width: 70%;
+}
+.title {
+    background-color: black;
+    border: 2px bold white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+}
+.content {
+    background-color: white;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+#writer { 
+    color: red;
+    font-size: 30px;
+}
+#quote {
+    font-size: 30px;
+    height: 70px;
+}
+button {
+    background-color: black;
+    color: white;
+    width: 130px;
+    font-size: larger;
+    height: 30px;
+}
